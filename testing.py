@@ -6,3 +6,4 @@ assert True
 import time
 
 time.sleep(300)
+assert True
