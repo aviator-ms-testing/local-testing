@@ -8,12 +8,10 @@ on: [pull_request]
 
 jobs:
   build:
-    name: "Lint and test"
+    name: "example/dummy/test"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Do the test
         run: |
-          echo "Running tests"
-          sleep 10
-          echo "Tests successful"
+          exit 1
