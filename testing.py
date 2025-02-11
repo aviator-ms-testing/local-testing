@@ -3,5 +3,5 @@ assert True
 print("All tests passed.")
 assert True
 assert True
-assert True 
-assert True 
+assert True
+assert True
