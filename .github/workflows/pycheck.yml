@@ -11,7 +11,11 @@ jobs:
     name: "example/dummy/test"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Do the test
-        run: |
-          exit 0
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const ref = context.payload.pull_request.head.ref;
+            console.log(ref);
+            if (ref.startsWith("av-")) {
+              core.setFailed("Branch name starts with 'av-'");
+            }
