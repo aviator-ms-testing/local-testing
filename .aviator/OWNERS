@@ -3,4 +3,5 @@ ios       @aviator-ms-testing/ios-eng
 ios/auth  @aviator-ms-testing/ios-auth-eng
 ios/net   @aviator-ms-testing/ios-net-eng
 
+no-owners
 /README.md
