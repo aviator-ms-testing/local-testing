@@ -1,4 +1,8 @@
-*         @aviator-ms-testing/eng
+* @aviator-ms-testing/eng
+
+draftcode-owner     @aviator-ms-testing/engineering
+pd-owner            @aviator-ms-testing/pd_assignment_team
+
 ios       @aviator-ms-testing/ios-eng
 ios/auth  @aviator-ms-testing/ios-auth-eng
 ios/net   @aviator-ms-testing/ios-net-eng
