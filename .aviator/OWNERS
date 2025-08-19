@@ -2,6 +2,7 @@
 
 draftcode-owner     @aviator-ms-testing/engineering
 pd-owner            @aviator-ms-testing/pd_assignment_team
+gapfill_test_owner/inner @aviator-ms-testing/eng
 
 ios       @aviator-ms-testing/ios-eng
 ios/auth  @aviator-ms-testing/ios-auth-eng
